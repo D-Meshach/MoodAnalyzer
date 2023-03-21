@@ -51,5 +51,17 @@ namespace MoodAnalyzerMSTest
 
             Assert.AreEqual(expected, response);
         }
+        //UC2 Null Exception
+        [TestMethod]
+        [DataRow(null)]
+        public void ExceptionHadleMood(String message)
+        {
+            String expected = "Happy";
+            MoodAnalyzerdemo mode = new MoodAnalyzerdemo();
+            mode.message = message;
+            String response = mode.MoodAnalyze();
+
+            Assert.AreEqual(expected, response);
+        }
     }
 }
