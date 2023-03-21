@@ -10,6 +10,10 @@ namespace MoodAnalyzer
     public class MoodAnalyzerdemo
     {
         public string message;
+        public MoodAnalyzerdemo()
+        {
+            
+        }
         public MoodAnalyzerdemo(String message)
         {
             this.message = message;
