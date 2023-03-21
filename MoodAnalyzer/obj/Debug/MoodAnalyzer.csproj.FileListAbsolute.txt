@@ -1,0 +1,8 @@
+D:\Visual_studio_projects\TESTING\MoodAnalyzer\MoodAnalyzer\bin\Debug\MoodAnalyzer.exe.config
+D:\Visual_studio_projects\TESTING\MoodAnalyzer\MoodAnalyzer\bin\Debug\MoodAnalyzer.exe
+D:\Visual_studio_projects\TESTING\MoodAnalyzer\MoodAnalyzer\bin\Debug\MoodAnalyzer.pdb
+D:\Visual_studio_projects\TESTING\MoodAnalyzer\MoodAnalyzer\obj\Debug\MoodAnalyzer.csproj.AssemblyReference.cache
+D:\Visual_studio_projects\TESTING\MoodAnalyzer\MoodAnalyzer\obj\Debug\MoodAnalyzer.csproj.SuggestedBindingRedirects.cache
+D:\Visual_studio_projects\TESTING\MoodAnalyzer\MoodAnalyzer\obj\Debug\MoodAnalyzer.csproj.CoreCompileInputs.cache
+D:\Visual_studio_projects\TESTING\MoodAnalyzer\MoodAnalyzer\obj\Debug\MoodAnalyzer.exe
+D:\Visual_studio_projects\TESTING\MoodAnalyzer\MoodAnalyzer\obj\Debug\MoodAnalyzer.pdb
