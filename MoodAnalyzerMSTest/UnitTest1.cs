@@ -63,5 +63,48 @@ namespace MoodAnalyzerMSTest
 
             Assert.AreEqual(expected, response);
         }
+        //UC3 T.C3.1 Null invalid exception 
+        [TestMethod]
+        
+        public void ExceptionHadle()
+        {
+            try
+            {
+                string message = null;
+                MoodAnalyzerExceptionTest mode = new MoodAnalyzerExceptionTest(message);
+
+                String response = mode.MoodAnalyze();
+                Console.WriteLine("Hello");
+
+
+            }
+            catch (MoodAnalyzerCustomException e)
+            {
+                Assert.AreEqual("Mood should not be null", e.Message);
+            }
+        }
+
+        //UC3 T.C3.2 Empty Invalid Exception
+        [TestMethod]
+
+        public void ExceptionHadleEmpty()
+        {
+            try
+            {
+                string message = "";
+                MoodAnalyzerExceptionTest mode = new MoodAnalyzerExceptionTest(message);
+
+                String response = mode.MoodAnalyze();
+                Console.WriteLine("Hello");
+
+
+            }
+            catch (MoodAnalyzerCustomException e)
+            {
+                Assert.AreEqual("Mood is Empty", e.Message);
+            }
+        }
+
+
     }
 }
