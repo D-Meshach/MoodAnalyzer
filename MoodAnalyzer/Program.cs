@@ -10,7 +10,8 @@ namespace MoodAnalyzer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Mood Analyzer MS Testing");
+            //Console.WriteLine("Welcome to Mood Analyzer MS Testing");
+            //MoodAnalyzerCustomException cus = new MoodAnalyzerCustomException();
         }
     }
 }
